@@ -9,7 +9,8 @@ with open( name) as file :
             words = line[6:]
             words = re.split( ', |\.|\n|\\)', words)
             treco[words[0]] ="""<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
-    <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Filme"/>""".format(words[0])
+    <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Filme"/>
+    <lançamento rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</lançamento>""".format(words[0], words[1])
 
 
         elif (line.startswith("tit_dur(")) :
