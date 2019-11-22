@@ -47,11 +47,13 @@ with open( name) as file :
                 treco[words[1]] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Atriz"/>
     <atuaComo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>
-    <atuaNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Filme001"/>""".format(words[1], words[2], words[0])
+    <atuaNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1], words[2], words[0])
             else :
-                personagem = """
+                atuaComo = """
     <atuaComo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2])
-                treco[words[1]] = treco[words[1]] + personagem
+                atuaNo = """
+    <atuaNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+                treco[words[1]] = treco[words[1]] + atuaComo + atuaNo
             
             treco[words[2]] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -61,7 +63,7 @@ with open( name) as file :
             temAtores = """
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])
             temPersonagem = """
-    <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem001"/>""".format(words[2])
+    <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2])
             treco[words[0]] = treco[words[0]] + temAtores + temPersonagem
 
 
@@ -75,9 +77,11 @@ with open( name) as file :
     <atuaComo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>
     <atuaNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1], words[2], words[0])
             else :
-                personagem = """
+                atuaComo = """
     <atuaComo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2])
-                treco[words[1]] = treco[words[1]] + personagem
+                atuaNo = """
+    <atuaNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+                treco[words[1]] = treco[words[1]] + atuaComo + atuaNo
             
             treco[words[2]] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
