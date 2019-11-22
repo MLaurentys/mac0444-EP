@@ -16,28 +16,29 @@ with open( name) as file :
         elif (line.startswith("tit_dur(")) :
             words = line[8:]
             words = re.split( ', |\.|\n|\\)', words)
-            time = """
+            duration = """
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</duration>""".format(words[2])
-            nome = """
+            name = """
     <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</name>""".format(words[1])
-            treco[words[0]] = treco[words[0]] + time + nome
+            treco[words[0]] = treco[words[0]] + duration + name
 
 
         elif (line.startswith("diretor(")) :
             words = line[8:]
             words = re.split( ', |\.|\n|\\)', words)
 
-            filme = """
+            dirigidoPor = """
     <dirigidoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])
-            treco[words[0]] = treco[words[0]] + filme
+            treco[words[0]] = treco[words[0]] + dirigidoPor
 
             if (treco.get(words[1]) is None) :
                 treco[words[1]] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
     <dirige rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1], words[0])
             else :
-                novo = """
+                dirige = """
     <dirige rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+                treco[words[1]] = treco[words[1]] + dirige
 
 
         elif (line.startswith("atriz(")) :
@@ -93,13 +94,13 @@ with open( name) as file :
         elif (line.startswith("nome(")) :
             words = line[5:]
             words = re.split( ', |\.|\n|\\)', words)
-            nomes = """
+            firstNameLastName = """
     <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:firstName>
     <foaf:lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:lastName>""".format(words[1], words[2])
-            treco[words[0]] = treco[words[0]] + nomes
+            treco[words[0]] = treco[words[0]] + firstNameLastName
 
 
-output = "filmes.pl"
+output = "treco.owl"
 with open( output, mode='a') as file :
     for i in treco.values() :
         i = i + """
