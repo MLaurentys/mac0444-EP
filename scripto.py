@@ -2,7 +2,7 @@ import re
 
 treco = {}
 
-name = "filmes.pl"
+name = "baseFiles/filmes.pl"
 with open( name) as file :
     for line in file :
         if (line.startswith("filme(")) :
