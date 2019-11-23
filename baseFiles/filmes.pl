@@ -5665,7 +5665,7 @@ tit_dur(intolerable_cruelty, 'Intolerable Cruelty', 100).
 tit_dur(just_cause, 'Just Cause', 102).
 tit_dur(lick_the_star, 'Lick the Star', 14).
 tit_dur(lost_in_translation, 'Lost in Translation', 102).
-tit_dur(manny__lo, 'Manny & Lo', 88).
+tit_dur(manny__lo, 'Manny and Lo', 88).
 tit_dur(marie_antoinette, 'Marie Antoinette', 123).
 tit_dur(match_point, 'Match Point', 124).
 tit_dur(miller_s_crossing, 'Miller\'s Crossing', 115).
@@ -5676,7 +5676,7 @@ tit_dur(north, 'North', 87).
 tit_dur(o_brother_where_art_thou, 'O Brother, Where Art Thou?', 107).
 tit_dur(paris_je_t_aime, 'Paris, je t\'aime', 120).
 tit_dur(peggy_sue_got_married, 'Peggy Sue Got Married', 103).
-tit_dur(pride__prejudice, 'Pride & Prejudice', 129).
+tit_dur(pride__prejudice, 'Pride and Prejudice', 129).
 tit_dur(raising_arizona, 'Raising Arizona', 94).
 tit_dur(rumble_fish, 'Rumble Fish', 94).
 tit_dur(scoop, 'Scoop', 96).
