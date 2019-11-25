@@ -1,3 +1,10 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ep: <http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
 1) Substituir o nome atual pelo nome do diretor desejado
 SELECT distinct ?Filmes ?Name
     WHERE {
@@ -51,6 +58,33 @@ WHERE {
     ?pessoa ep:atuaNo ?filme2.
     ?pessoa foaf:firstName ?First.
     ?pessoa foaf:lastName ?Last.
+}
+
+6) Change dates and actor names for different results
+SELECT ?Diretores ?Ano
+WHERE {
+    ?Filme ep:lancamento ?Ano.
+    FILTER(?Ano < 1980).
+    FILTER(?Ano > 1959).
+    ?ator1 foaf:firstName "Sofia"^^xsd:string.
+    ?ator1 foaf:lastName "Coppola"^^xsd:string.
+    ?ator2 foaf:firstName "Marianna"^^xsd:string.
+    ?ator2 foaf:lastName "Hill"^^xsd:string.
+    ?Filme ep:temAtores ?ator1.
+    ?Filme ep:temAtores ?ator2.
+    ?Filme ep:dirigidoPor ?Diretores.
+}
+
+7)
+SELECT distinct ?Duracao ?Atriz ?Ator
+WHERE {
+    ?Filme ep:duration ?Duracao.
+    FILTER(?Duracao < 120).
+    FILTER(?Duracao > 0).
+    ?Filme ep:temAtores ?Atriz.
+    ?Filme ep:temAtores ?Ator.
+    ?Atriz rdf:type ep:Atriz.
+    ?Ator rdf:type ep:Ator.
 }
 
 8)

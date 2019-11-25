@@ -5,16 +5,10 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?Diretores ?Ano
+SELECT distinct ?Duracao ?Atriz ?Ator
 WHERE {
-    ?Filme ep:lancamento ?Ano.
-    FILTER(?Ano < 1980).
-    FILTER(?Ano > 1959).
-    ?ator1 foaf:firstName "Sofia"^^xsd:string.
-    ?ator1 foaf:lastName "Coppola"^^xsd:string.
-    ?ator2 foaf:firstName "Marianna"^^xsd:string.
-    ?ator2 foaf:lastName "Hill"^^xsd:string.
-    ?Filme ep:temAtores ?ator1.
-    ?Filme ep:temAtores ?ator2.
-    ?Filme ep:dirigidoPor ?Filme.Diretores.
+    ?Filme ep:duration ?Duracao.
+    ?Filme ep:temAtores ?Atriz.
+    ?Filme ep:temAtores ?Ator.
+    FILTER(datatype(?Ator) = "Ator").
 }
