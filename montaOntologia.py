@@ -248,7 +248,7 @@ with open(filmes) as file :
     for line in file :
         if (line.startswith("filme(")) :
             words = line[6:]
-            words = re.split( ', |\.|\n|\\)', words)
+            words = re.split( ', |\n|\\)', words.replace(".", ""))
             treco[words[0]] ="""<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Filme"/>
     <lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</lancamento>""".format(words[0], words[1])
@@ -256,7 +256,7 @@ with open(filmes) as file :
 
         elif (line.startswith("tit_dur(")) :
             words = line[8:]
-            words = re.split( ', |\.|\n|\\)', words)
+            words = re.split( ', |\n|\\)', words.replace(".", ""))
             duration = """
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</duration>""".format(words[2])
             name = """
@@ -266,7 +266,7 @@ with open(filmes) as file :
 
         elif (line.startswith("diretor(")) :
             words = line[8:]
-            words = re.split( ', |\.|\n|\\)', words)
+            words = re.split( ', |\n|\\)', words.replace(".", ""))
             dirigidoPor = """
     <dirigidoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])
             treco[words[0]] = treco[words[0]] + dirigidoPor
@@ -286,8 +286,9 @@ with open(filmes) as file :
 
         elif (line.startswith("atriz(")) :
             words = line[6:]
-            words = re.split( ', |\.|\n|\\)', words)
+            words = re.split( ', |\n|\\)', words.replace(".", ""))
             if(words[2] == "herself"): words[2] = words[1]
+            if(words[2] == """''"""): words[2] = "Unknow"
             if (treco.get(words[1]) is None) :
                 funcoes[words[1]] = 1
                 treco[words[1]] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
@@ -320,8 +321,9 @@ with open(filmes) as file :
 
         elif (line.startswith("ator(")) :
             words = line[5:]
-            words = re.split( ', |\.|\n|\\)', words)
+            words = re.split( ', |\n|\\)', words.replace(".", ""))
             if(words[2] == "himself"): words[2] = words[1]
+            if(words[2] == """''"""): words[2] = "Unknow_" + words[1]
 
             if (treco.get(words[1]) is None) :
                 funcoes[words[1]] = 1
@@ -340,15 +342,23 @@ with open(filmes) as file :
                 
                 treco[words[1]] = treco[words[1]] + atuaComo + atuaNo
             
-            treco[words[2] + "_p"] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
+            if (treco.get(words[2] + "_p") is None):
+                treco[words[2] + "_p"] = """<owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
-    <atuadoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2] + "_p", words[1])
+    <atuadoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>
+    <apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2] + "_p", words[1], words[0])
+            else: treco[words[2] + "_p"] += """<apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+            temAtores = """
+    <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])
+            temPersonagem = """
+    <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2] + "_p")
+            treco[words[0]] = treco[words[0]] + temAtores + temPersonagem
 
 
 
         elif (line.startswith("nome(")) :
             words = line[5:]
-            words = re.split( ', |\.|\n|\\)', words)
+            words = re.split( ', |\n|\\)', words.replace(".", ""))
             firstNameFamilyName = """
     <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:firstName>
     <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:familyName>""".format(words[1].replace("'", ""), words[2].replace("'", ""))
