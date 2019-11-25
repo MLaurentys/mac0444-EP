@@ -43,3 +43,16 @@ WHERE {
     
     ?Filme ep:duration ?Duracao.
 } ORDER BY ASC(?Duracao) 
+
+8) Mudar nome do diretor
+SELECT ?Diretor (COUNT(*) AS ?contador)
+WHERE {
+    ?ator
+        foaf:firstName "'Bill'"^^xsd:string;
+        foaf:lastName "'Murray'"^^xsd:string.
+    ?ator ep:atuaNo ?filme.
+    ?Diretor ep:dirige ?filme.
+}
+GROUP BY (?Diretor)
+ORDER BY DESC(?contador)
+LIMIT 1

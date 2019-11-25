@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1574636324989" name="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac044-ep" uri="Ontology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1574636324989" name="duplicate:http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep" uri="treco.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1574636324989" name="duplicate:http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep" uri="OntologySampleForParsing.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1574636324989" name="duplicate:http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep" uri="teste.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574643156509" name="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac044-ep" uri="Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574643156509" name="duplicate:http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep" uri="treco.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574643156509" name="duplicate:http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep" uri="OntologySampleForParsing.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574643156509" name="duplicate:http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep" uri="teste.owl"/>
     </group>
 </catalog>

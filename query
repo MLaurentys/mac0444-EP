@@ -5,16 +5,14 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?Filme ?Duracao
+SELECT ?Diretor (COUNT(*) AS ?contador)
 WHERE {
-    ?diretor foaf:firstName "'Francis'"^^xsd:string.
-    ?diretor foaf:lastName "'Coppola'"^^xsd:string.
-    ?Filme ep:dirigidoPor ?Diretor.
-
-    ?Filme ep:temAtores ?ator.
-    {?ator foaf:firstName "'nSofia'"^^xsd:string. ?ator foaf:lastName "'Coppola'"^^xsd:string.}
-    UNION {?ator foaf:firstName "'Marianna'"^^xsd:string. ?ator foaf:lastName "'Hill'"^^xsd:string.}
-
-    
-    ?Filme ep:duration ?Duracao.
-} ORDER BY ASC(?Duracao) 
+    ?ator
+        foaf:firstName "'Bill'"^^xsd:string;
+        foaf:lastName "'Murray'"^^xsd:string.
+    ?ator ep:atuaNo ?filme.
+    ?Diretor ep:dirige ?filme.
+}
+GROUP BY (?Diretor)
+ORDER BY DESC(?contador)
+LIMIT 1
