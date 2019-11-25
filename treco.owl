@@ -257,7 +257,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#elaine_corral_kendall"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#newscaster_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'American Beauty'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Beauty</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sam_mendes"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -746,7 +746,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#nina_port"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#dancing_dishwasher_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Anna'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anna</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#yurek_bogayevicz"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -1189,7 +1189,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#hy_pyke"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#taffey_lewis_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">117</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Blade Runner'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blade Runner</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ridley_scott"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -1390,7 +1390,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#isabelle_townsend"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#beauty_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">116</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Barton Fink'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barton Fink</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ethan_coen"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -1788,7 +1788,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#robin_johnson"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#checker_at_ralph_s_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">117</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Big Lebowski'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Big Lebowski</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#jeff_bridges">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -2287,7 +2287,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#holly_hunter"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#helene_trend_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Blood Simple'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood Simple</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#john_getz">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -2611,7 +2611,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#suzanne_kaaren"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#the_duchess_of_park_avenue_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Cotton Club'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cotton Club</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#francis_ford_coppola"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -4009,7 +4009,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#rosa_pianeta"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#woman_in_fiat_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'CQ'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CQ</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#roman_coppola"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -4603,7 +4603,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#julie_harris"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#''_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">83</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Crimewave'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crimewave</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sam_raimi"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -5022,7 +5022,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#tamara_trexler"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#audience_member_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Down from the Mountain'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Down from the Mountain</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#nick_doob"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -5538,7 +5538,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#gina_ravera"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ruth_tolson_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">126</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Great Debaters'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Great Debaters</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#denzel_washington"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -5661,7 +5661,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#rose_stockton"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#valerie_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fargo'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fargo</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#william_h_macy">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -6109,7 +6109,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#julia_hayes"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#girl_in_bar_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">154</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Firm'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Firm</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sydney_pollack"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -6834,7 +6834,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#helen_boll"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mrs_curtis_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Frankenweenie'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frankenweenie</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#tim_burton"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -6990,7 +6990,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#amy_addams"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#amy_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">126</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Her'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Her</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#spike_jonze"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -7192,7 +7192,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#deborah_gibson"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#birthday_girl_in_tavern_on_the_green_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">105</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Ghostbusters'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghostbusters</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ivan_reitman"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -7937,7 +7937,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#claire_johnston"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#white_haired_woman_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Girl with a Pearl Earring'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girl with a Pearl Earring</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#peter_webber"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -8306,7 +8306,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#filomena_spagnuolo"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#extra_at_wedding_scene_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">175</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Godfather'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#marlon_brando">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -9041,7 +9041,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#filomena_spagnuolo"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#extra_in_little_italy_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Godfather: Part II'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather: Part II</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#don_michael_corleone_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -9792,7 +9792,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#simonetta_stefanelli"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#apollonia_vitelli_corleone_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">162</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Godfather: Part III'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather: Part III</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kay_adams_mitchelson_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -10589,7 +10589,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#regina_prokop"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#polka_dancer_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">101</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Groundhog Day'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundhog Day</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#phil_connors_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -11197,7 +11197,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sofia_coppola"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sofia_coppola_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">96</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Hearts of Darkness: A Filmmaker\'s Apocalypse'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hearts of Darkness: A Filmmaker\s Apocalypse</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#fax_bahr"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -11404,7 +11404,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#cynthia_baker"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#new_year_s_mob_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Hudsucker Proxy'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hudsucker Proxy</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#tim_robbins">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -12111,7 +12111,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#blair_tefkin"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#brent_s_assistant_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Inside Monkey Zetterland'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inside Monkey Zetterland</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#jefery_levy"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -12377,7 +12377,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#susan_yeagley"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#tart_1_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Intolerable Cruelty'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intolerable Cruelty</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#george_clooney">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -12904,7 +12904,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#audrey_tautou"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sophie_neveu_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">149</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Da Vinci Code'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Da Vinci Code</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ron_howard"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -13043,7 +13043,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mi_mi_green_fann"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#church_voice_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">104</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Ladykillers'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ladykillers</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#professor_g_h_dorr_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -13454,7 +13454,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#eleanor_cummings"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sixth_grader_p_e_victim_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Lick the Star'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lick the Star</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#christina_turley">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Atriz"/>
@@ -13663,7 +13663,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#nancy_steiner"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#lydia_harris_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Lost in Translation'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lost in Translation</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#charlotte_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -14239,7 +14239,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#monika_malmrose"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#crying_girl_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">116</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Man Who Wasn\'t There'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Man Who Wasn\t There</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ed_crane_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -14803,7 +14803,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mary_nighy"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#''_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Marie Antoinette'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marie Antoinette</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kirsten_dunst">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Atriz"/>
@@ -15177,7 +15177,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#frances_mcdormand"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mayor_s_secretary_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Miller\'s Crossing'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller\s Crossing</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#gabriel_byrne">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -15594,7 +15594,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#melissa_knatchbull"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#air_stewardess_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">110</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Mission: Impossible'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mission: Impossible</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#brian_de_palma"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -16148,7 +16148,7 @@
     <lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2007</lancamento>
     <dirigidoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#joel_coen"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">122</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'No Country for Old Men'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No Country for Old Men</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#o_brother_where_art_thou">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Filme"/>
@@ -16184,7 +16184,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#cheryl_white"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#the_whites_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Where Art Thou?'</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'O Brother</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O Brother</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ulysses_everett_mcgill_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -16527,7 +16527,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#heather_langenkamp"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#''_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Outsiders'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Outsiders</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#matt_dillon">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -16831,7 +16831,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#a_ssa_ma_ga"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sophie_segment_19th_arrondissement_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">je t\'aime'</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Paris</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#olivier_assayas"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -17256,7 +17256,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mary_mitchel"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#''_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">103</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Peggy Sue Got Married'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peggy Sue Got Married</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kathleen_turner">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Atriz"/>
@@ -17757,7 +17757,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#collete_wolfe"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ms_hanley_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">169</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Interstellar'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstellar</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#cristopher_nolan"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -17879,7 +17879,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#melanie_malin"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#arizona_quint_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Raising Arizona'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raising Arizona</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#h_i_mcdonnough_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -18409,7 +18409,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#heather_langenkamp"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#''_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">94</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Rumble Fish'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rumble Fish</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#rusty_james_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -18681,7 +18681,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#nancy_gair"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#student_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Spies Like Us'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spies Like Us</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#john_landis"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -19259,7 +19259,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#madison_lloyd"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#princess_ellie_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Star Wars: Episode I - The Phantom Menace'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star Wars: Episode I - The Phantom Menace</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#liam_neeson">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -20220,7 +20220,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#michelle_weber"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#michelle_weber_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Torrance Rises'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torrance Rises</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#lance_bangs"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -20565,7 +20565,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#smadar_hanson"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#keyser_s_wife_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">106</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Usual Suspects'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Usual Suspects</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#bryan_singer"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -20992,7 +20992,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mandy_lee_jones"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#student_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">97</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Virgin Suicides'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Virgin Suicides</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#james_woods">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Ator"/>
@@ -21738,7 +21738,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#va_g_rdos"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#suzanne_sandor_in_family_picture_age_6_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">106</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'An American Rhapsody'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An American Rhapsody</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#va_g_rdos"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -22194,7 +22194,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#fiona_shaw"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#''_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">121</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Black Dahlia'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Black Dahlia</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ofcr_dwight_bucky_bleichert_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -22508,7 +22508,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ellen_barber"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#woman_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Fall'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#eric_schaeffer"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -22736,7 +22736,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#brenda_canela"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#luz_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">131</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Spanglish'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanglish</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#james_l_brooks"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -22878,7 +22878,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#terey_summers"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#waitress_2_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Eight Legged Freaks'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eight Legged Freaks</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ellory_elkayem"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -23185,7 +23185,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#michelle_marie_white"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mom_in_convenience_store_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Ghost World'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghost World</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#terry_zwigoff"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -23955,7 +23955,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#nichola_aigner"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mrs_gowper_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Good Woman'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Good Woman</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mike_barker"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -24225,7 +24225,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#amanda_kravat"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#woman_in_park_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'If Lucy Fell'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If Lucy Fell</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sarah_jessica_parker">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Atriz"/>
@@ -24482,7 +24482,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#anna_massey"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#mrs_eagleton_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">104</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Oxford Murders'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Oxford Murders</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#alex_de_la_iglesia"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -24621,7 +24621,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kelly_ann_marquart"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#girl_on_sidewalk_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Home Alone 3'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Alone 3</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#raja_gosnell"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -25005,7 +25005,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#gloria_lynne_henry"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#member_of_magazine_staff_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">169</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Horse Whisperer'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Horse Whisperer</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#robert_redford"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -25413,7 +25413,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kelly_reilly"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#caroline_bingley_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">129</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Pride and Prejudice'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pride and Prejudice</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#joe_wright"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -25593,7 +25593,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#loretta_shenosky"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kalb_s_assistant_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">109</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'In Good Company'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Good Company</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#paul_weitz"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -26144,7 +26144,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#deborah_smith_ford"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#medical_examiner_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Just Cause'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Just Cause</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#arne_glimcher"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -26710,7 +26710,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#jennifer_secord"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#patron_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Island'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Island</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#michael_bay"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -27460,7 +27460,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#brooke_allen"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sandy_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">119</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'A Love Song for Bobby Long'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Love Song for Bobby Long</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#shainee_gabel"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -27744,7 +27744,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#shelley_dee_green"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#other_golfer_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Manny and Lo'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manny and Lo</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#lisa_krueger"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -28026,7 +28026,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#alice_orr_ewing"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#diana_king_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Theory of Everything'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Theory of Everything</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#james_marsh"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -28131,7 +28131,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#jennifer_esposito"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#ria_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">112</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Crash'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crash</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#paul_haggis"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -28270,7 +28270,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#zoe_telford"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#samantha_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">124</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Match Point'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Match Point</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#woody_allen"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -28459,7 +28459,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#dee_ann_johnston"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#tourist_mom_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">92</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'My Brother the Pig'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My Brother the Pig</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#erik_fleming"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -28737,7 +28737,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sarah_martineck"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#kid_in_airport_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'North'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#rob_reiner"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -29774,7 +29774,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sarah_afful"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#girl_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">93</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Perfect Score'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Perfect Score</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#brian_robbins"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -30216,7 +30216,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#lori_alan"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#pearl_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The SpongeBob SquarePants Movie'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SpongeBob SquarePants Movie</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#stephen_hillenburg"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
@@ -30731,7 +30731,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#scarlett_johansson"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sondra_pransky_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">96</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Scoop'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scoop</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#sid_waterman_p">
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
@@ -30800,7 +30800,7 @@
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#keira_knightley"/>
     <temPersonagem rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#joan_clarke_p"/>
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">114</duration>
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'The Imitation Game'</name>
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Imitation Game</name>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#morten_tyldum"> 
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Diretor"/>
