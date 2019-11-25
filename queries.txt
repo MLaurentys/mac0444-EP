@@ -1,0 +1,45 @@
+1) Substituir o nome atual pelo nome do diretor desejado
+SELECT distinct ?Filmes ?Name
+    WHERE {
+    ?diretor foaf:firstName "'Sofia'"^^xsd:string.
+    ?diretor foaf:lastName "'Coppola'"^^xsd:string.
+    ?Filmes ep:dirigidoPor ?diretor.
+    ?Filmes ep:name ?Name.
+} ORDER BY ASC(?Name)
+
+2) Substituir nome do filme atual pelo nome desejado
+SELECT ?Actors ?first ?last
+WHERE {
+    ?Filme ep:name "1  3"^^xsd:string.
+    ?Filme ep:temAtores ?Actors.
+    ?Actors foaf:firstName ?first.
+    ?Actors foaf:lastName ?last.
+} ORDER BY ASC(?first) ASC(?last) 
+
+3) Substiruir nomes de ambos os atores
+SELECT ?Filme ?Diretor ?Lancamento
+WHERE {
+    ?ator1 foaf:firstName "'Sofia'"^^xsd:string.
+    ?ator1 foaf:lastName "'Coppola'"^^xsd:string.
+    ?ator2 foaf:firstName "'Marianna'"^^xsd:string.
+    ?ator2 foaf:lastName "'Hill'"^^xsd:string.
+    ?Filme ep:temAtores ?ator1.
+    ?Filme ep:temAtores ?ator2.
+    ?Filme ep:dirigidoPor ?Diretor.
+    ?Filme ep:lancamento ?Lancamento.
+} ORDER BY DESC(?Lancamento) 
+
+4 
+SELECT ?Filme ?Duracao
+WHERE {
+    ?diretor foaf:firstName "'Francis'"^^xsd:string.
+    ?diretor foaf:lastName "'Coppola'"^^xsd:string.
+    ?Filme ep:dirigidoPor ?Diretor.
+
+    ?Filme ep:temAtores ?ator.
+    {?ator foaf:firstName "'nSofia'"^^xsd:string. ?ator foaf:lastName "'Coppola'"^^xsd:string.}
+    UNION {?ator foaf:firstName "'Marianna'"^^xsd:string. ?ator foaf:lastName "'Hill'"^^xsd:string.}
+
+    
+    ?Filme ep:duration ?Duracao.
+} ORDER BY ASC(?Duracao) 
