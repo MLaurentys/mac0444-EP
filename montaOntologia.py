@@ -260,7 +260,7 @@ with open(filmes) as file :
             duration = """
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</duration>""".format(words[2])
             name = """
-    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</name>""".format("1  3")
+    <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</name>""".format(words[1])
             treco[words[0]] = treco[words[0]] + duration + name
 
 
