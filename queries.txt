@@ -1,8 +1,8 @@
 1) Substituir o nome atual pelo nome do diretor desejado
 SELECT distinct ?Filmes ?Name
     WHERE {
-    ?diretor foaf:firstName "'Sofia'"^^xsd:string.
-    ?diretor foaf:lastName "'Coppola'"^^xsd:string.
+    ?diretor foaf:firstName "Sofia"^^xsd:string.
+    ?diretor foaf:lastName "Coppola"^^xsd:string.
     ?Filmes ep:dirigidoPor ?diretor.
     ?Filmes ep:name ?Name.
 } ORDER BY ASC(?Name)
@@ -19,40 +19,61 @@ WHERE {
 3) Substiruir nomes de ambos os atores
 SELECT ?Filme ?Diretor ?Lancamento
 WHERE {
-    ?ator1 foaf:firstName "'Sofia'"^^xsd:string.
-    ?ator1 foaf:lastName "'Coppola'"^^xsd:string.
-    ?ator2 foaf:firstName "'Marianna'"^^xsd:string.
-    ?ator2 foaf:lastName "'Hill'"^^xsd:string.
+    ?ator1 foaf:firstName "Sofia"^^xsd:string.
+    ?ator1 foaf:lastName "Coppola"^^xsd:string.
+    ?ator2 foaf:firstName "Marianna"^^xsd:string.
+    ?ator2 foaf:lastName "Hill"^^xsd:string.
     ?Filme ep:temAtores ?ator1.
     ?Filme ep:temAtores ?ator2.
     ?Filme ep:dirigidoPor ?Diretor.
     ?Filme ep:lancamento ?Lancamento.
 } ORDER BY DESC(?Lancamento) 
 
-4 
+4)
 SELECT ?Filme ?Duracao
 WHERE {
-    ?diretor foaf:firstName "'Francis'"^^xsd:string.
-    ?diretor foaf:lastName "'Coppola'"^^xsd:string.
+    ?diretor foaf:firstName "Francis"^^xsd:string.
+    ?diretor foaf:lastName "Coppola"^^xsd:string.
     ?Filme ep:dirigidoPor ?Diretor.
 
     ?Filme ep:temAtores ?ator.
-    {?ator foaf:firstName "'nSofia'"^^xsd:string. ?ator foaf:lastName "'Coppola'"^^xsd:string.}
-    UNION {?ator foaf:firstName "'Marianna'"^^xsd:string. ?ator foaf:lastName "'Hill'"^^xsd:string.}
+    {?ator foaf:firstName "nSofia"^^xsd:string. ?ator foaf:lastName "Coppola"^^xsd:string.}
+    UNION {?ator foaf:firstName "Marianna"^^xsd:string. ?ator foaf:lastName "Hill"^^xsd:string.}
 
     
     ?Filme ep:duration ?Duracao.
 } ORDER BY ASC(?Duracao) 
 
-8) Mudar nome do diretor
+5)
+SELECT distinct ?First ?Last
+WHERE {
+    ?pessoa ep:dirige ?filme1.
+    ?pessoa ep:atuaNo ?filme2.
+    ?pessoa foaf:firstName ?First.
+    ?pessoa foaf:lastName ?Last.
+}
+
+8)
 SELECT ?Diretor (COUNT(*) AS ?contador)
 WHERE {
     ?ator
-        foaf:firstName "'Bill'"^^xsd:string;
-        foaf:lastName "'Murray'"^^xsd:string.
+        foaf:firstName "Bill"^^xsd:string;
+        foaf:lastName "Murray"^^xsd:string.
     ?ator ep:atuaNo ?filme.
     ?Diretor ep:dirige ?filme.
 }
 GROUP BY (?Diretor)
 ORDER BY DESC(?contador)
+LIMIT 1 
+
+10)
+SELECT ?Nome ?duracao
+WHERE {
+    ?diretor foaf:firstName "Sofia"^^xsd:string.
+    ?diretor foaf:lastName "Coppola"^^xsd:string.
+    ?filme ep:dirigidoPor ?diretor.
+    ?filme ep:name ?Nome.
+    ?filme ep:duration ?duracao.
+}
+ORDER BY DESC (?duracao)
 LIMIT 1
