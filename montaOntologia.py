@@ -351,7 +351,7 @@ with open(filmes) as file :
             words = re.split( ', |\.|\n|\\)', words)
             firstNameLastName = """
     <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:firstName>
-    <foaf:lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:lastName>""".format(words[1], words[2])
+    <foaf:lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:lastName>""".format(words[1].replace("'", ""), words[2].replace("'", ""))
             treco[words[0]] = treco[words[0]] + firstNameLastName
 
 
