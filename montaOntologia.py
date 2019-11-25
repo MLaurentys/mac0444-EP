@@ -349,10 +349,10 @@ with open(filmes) as file :
         elif (line.startswith("nome(")) :
             words = line[5:]
             words = re.split( ', |\.|\n|\\)', words)
-            firstNameLastName = """
+            firstNameFamilyName = """
     <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:firstName>
-    <foaf:lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:lastName>""".format(words[1].replace("'", ""), words[2].replace("'", ""))
-            treco[words[0]] = treco[words[0]] + firstNameLastName
+    <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</foaf:familyName>""".format(words[1].replace("'", ""), words[2].replace("'", ""))
+            treco[words[0]] = treco[words[0]] + firstNameFamilyName
 
 
 output = "treco.owl"
