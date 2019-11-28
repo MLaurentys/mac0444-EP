@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT distinct ?Filmes ?Name
     WHERE {
     ?diretor foaf:firstName "Sofia"^^xsd:string.
-    ?diretor foaf:lastName "Coppola"^^xsd:string.
+    ?diretor foaf:familyName "Coppola"^^xsd:string.
     ?Filmes ep:dirigidoPor ?diretor.
     ?Filmes ep:name ?Name.
 } ORDER BY ASC(?Name)
@@ -17,19 +17,19 @@ SELECT distinct ?Filmes ?Name
 2) Substituir nome do filme atual pelo nome desejado
 SELECT ?Actors ?first ?last
 WHERE {
-    ?Filme ep:name "1  3"^^xsd:string.
+    ?Filme ep:name "Fall"^^xsd:string.
     ?Filme ep:temAtores ?Actors.
     ?Actors foaf:firstName ?first.
-    ?Actors foaf:lastName ?last.
+    ?Actors foaf:familyName ?last.
 } ORDER BY ASC(?first) ASC(?last) 
 
 3) Substiruir nomes de ambos os atores
 SELECT ?Filme ?Diretor ?Lancamento
 WHERE {
     ?ator1 foaf:firstName "Sofia"^^xsd:string.
-    ?ator1 foaf:lastName "Coppola"^^xsd:string.
+    ?ator1 foaf:familyName "Coppola"^^xsd:string.
     ?ator2 foaf:firstName "Marianna"^^xsd:string.
-    ?ator2 foaf:lastName "Hill"^^xsd:string.
+    ?ator2 foaf:familyName "Hill"^^xsd:string.
     ?Filme ep:temAtores ?ator1.
     ?Filme ep:temAtores ?ator2.
     ?Filme ep:dirigidoPor ?Diretor.
@@ -40,24 +40,24 @@ WHERE {
 SELECT ?Filme ?Duracao
 WHERE {
     ?diretor foaf:firstName "Francis"^^xsd:string.
-    ?diretor foaf:lastName "Coppola"^^xsd:string.
+    ?diretor foaf:familyName "Coppola"^^xsd:string.
     ?Filme ep:dirigidoPor ?Diretor.
 
     ?Filme ep:temAtores ?ator.
-    {?ator foaf:firstName "nSofia"^^xsd:string. ?ator foaf:lastName "Coppola"^^xsd:string.}
-    UNION {?ator foaf:firstName "Marianna"^^xsd:string. ?ator foaf:lastName "Hill"^^xsd:string.}
+    {?ator foaf:firstName "nSofia"^^xsd:string. ?ator foaf:familyName "Coppola"^^xsd:string.}
+    UNION {?ator foaf:firstName "Marianna"^^xsd:string. ?ator foaf:familyName "Hill"^^xsd:string.}
 
     
     ?Filme ep:duration ?Duracao.
 } ORDER BY ASC(?Duracao) 
 
 5)
-SELECT distinct ?First ?Last
+SELECT distinct ?First ?Lastmily.
 WHERE {
     ?pessoa ep:dirige ?filme1.
     ?pessoa ep:atuaNo ?filme2.
     ?pessoa foaf:firstName ?First.
-    ?pessoa foaf:lastName ?Last.
+    ?pessoa foaf:familyName ?Last.
 }
 
 6) Change dates and actor names for different results
@@ -67,9 +67,9 @@ WHERE {
     FILTER(?Ano < 1980).
     FILTER(?Ano > 1959).
     ?ator1 foaf:firstName "Sofia"^^xsd:string.
-    ?ator1 foaf:lastName "Coppola"^^xsd:string.
+    ?ator1 foaf:familyName "Coppola"^^xsd:string.
     ?ator2 foaf:firstName "Marianna"^^xsd:string.
-    ?ator2 foaf:lastName "Hill"^^xsd:string.
+    ?ator2 foaf:familyName "Hill"^^xsd:string.
     ?Filme ep:temAtores ?ator1.
     ?Filme ep:temAtores ?ator2.
     ?Filme ep:dirigidoPor ?Diretores.
@@ -92,7 +92,7 @@ SELECT ?Diretor (COUNT(*) AS ?contador)
 WHERE {
     ?ator
         foaf:firstName "Bill"^^xsd:string;
-        foaf:lastName "Murray"^^xsd:string.
+        foaf:familyName "Murray"^^xsd:string.
     ?ator ep:atuaNo ?filme.
     ?Diretor ep:dirige ?filme.
 }
@@ -104,7 +104,7 @@ LIMIT 1
 SELECT ?Nome ?duracao
 WHERE {
     ?diretor foaf:firstName "Sofia"^^xsd:string.
-    ?diretor foaf:lastName "Coppola"^^xsd:string.
+    ?diretor foaf:familyName "Coppola"^^xsd:string.
     ?filme ep:dirigidoPor ?diretor.
     ?filme ep:name ?Nome.
     ?filme ep:duration ?duracao.
