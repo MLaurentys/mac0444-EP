@@ -256,7 +256,7 @@ with open(filmes) as file :
 
         elif (line.startswith("tit_dur(")) :
             words = line[8:]
-            words = re.split( ', |\n|\\)', words.replace(".", ""))
+            words = re.split( ', \'|\',|\n|\\)', words.replace(".", ""))
             duration = """
     <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</duration>""".format(words[2])
             name = """
@@ -311,7 +311,11 @@ with open(filmes) as file :
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
     <atuadoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>
     <apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2] + "_p", words[1], words[0])
-            else: treco[words[2] + "_p"] += """<apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+            else: 
+                treco[words[2] + "_p"] += """
+    <apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+                treco[words[2] + "_p"] += """
+    <atuadoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])    
             temAtores = """
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])
             temPersonagem = """
@@ -347,7 +351,11 @@ with open(filmes) as file :
     <rdf:type rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#Personagem"/>
     <atuadoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>
     <apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[2] + "_p", words[1], words[0])
-            else: treco[words[2] + "_p"] += """<apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+            else: 
+                treco[words[2] + "_p"] += """
+    <apareceNo rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[0])
+                treco[words[2] + "_p"] += """
+    <atuadoPor rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])    
             temAtores = """
     <temAtores rdf:resource="http://www.semanticweb.org/mtlaurentys/ontologies/2019/10/mac0444-ep#{}"/>""".format(words[1])
             temPersonagem = """
