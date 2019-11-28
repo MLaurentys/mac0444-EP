@@ -5,16 +5,12 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?Diretores ?Ano
-WHERE {
-    ?Filme ep:lancamento ?Ano.
-    FILTER(?Ano < 1980).
-    FILTER(?Ano > 1959).
-    ?ator1 foaf:firstName "Sofia"^^xsd:string.
-    ?ator1 foaf:lastName "Coppola"^^xsd:string.
-    ?ator2 foaf:firstName "Marianna"^^xsd:string.
-    ?ator2 foaf:lastName "Hill"^^xsd:string.
-    ?Filme ep:temAtores ?ator1.
-    ?Filme ep:temAtores ?ator2.
-    ?Filme ep:dirigidoPor ?Diretores.
-}
+SELECT ?Ator ?Filme ?Ano ?Personagem
+    WHERE {
+        ?Ator foaf:firstName "Talia"^^xsd:string;
+            foaf:familyName "Shire"^^xsd:string.
+        ?Filme ep:temAtores ?Ator.
+        ?Filme ep:lancamento ?Ano.
+        ?Ator ep:atuaComo ?Personagem.
+        ?Filme ep:temPersonagem ?Personagem.
+} ORDER BY ASC(?Ano) LIMIT 1

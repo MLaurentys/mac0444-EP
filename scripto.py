@@ -100,7 +100,7 @@ with open( name) as file :
             treco[words[0]] = treco[words[0]] + firstNameLastName
 
 
-output = "treco.owl"
+output = "BrenoJiangMatheusVictor_OntologiaMAC0444.owl"
 with open( output, mode='a') as file :
     for i in treco.values() :
         i = i + """

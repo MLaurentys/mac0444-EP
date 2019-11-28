@@ -75,16 +75,20 @@ WHERE {
     ?Filme ep:dirigidoPor ?Diretores.
 }
 
-7)
-SELECT distinct ?Duracao ?Atriz ?Ator
+7)Change the initial and final duration
+SELECT ?Filme ?Atriz ?Ator
 WHERE {
-    ?Filme ep:duration ?Duracao.
-    FILTER(?Duracao < 120).
-    FILTER(?Duracao > 0).
+    {
+        SELECT ?Filme {
+        ?Filme ep:duration ?Duracao.
+        FILTER(?Duracao < 120).
+        FILTER(?Duracao > 0).
+        } LIMIT 1
+    }
     ?Filme ep:temAtores ?Atriz.
     ?Filme ep:temAtores ?Ator.
-    ?Atriz rdf:type ep:Atriz.
-    ?Ator rdf:type ep:Ator.
+    ?Atriz a ep:Atriz.
+    ?Ator a ep:Ator.
 }
 
 8)
@@ -99,6 +103,17 @@ WHERE {
 GROUP BY (?Diretor)
 ORDER BY DESC(?contador)
 LIMIT 1 
+
+9) Change first and last name of actor
+SELECT ?Ator ?Filme ?Ano ?Personagem
+WHERE {
+    ?Ator foaf:firstName "Talia"^^xsd:string;
+          foaf:familyName "Shire"^^xsd:string.
+    ?Filme ep:temAtores ?Ator.
+    ?Filme ep:lancamento ?Ano.
+    ?Ator ep:atuaComo ?Personagem.
+    ?Filme ep:temPersonagem ?Personagem.
+} ORDER BY ASC(?Ano) LIMIT 1
 
 10)
 SELECT ?Nome ?duracao
