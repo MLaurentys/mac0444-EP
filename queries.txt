@@ -6,7 +6,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 1) Substituir o nome atual pelo nome do diretor desejado
-SELECT distinct ?Filmes ?Name
+SELECT distinct ?Name
     WHERE {
     ?diretor foaf:firstName "Sofia"^^xsd:string.
     ?diretor foaf:familyName "Coppola"^^xsd:string.
@@ -15,12 +15,14 @@ SELECT distinct ?Filmes ?Name
 } ORDER BY ASC(?Name)
 
 2) Substituir nome do filme atual pelo nome desejado
-SELECT ?Actors ?first ?last
+SELECT ?First ?Last ?Personagem
 WHERE {
     ?Filme ep:name "Fall"^^xsd:string.
     ?Filme ep:temAtores ?Actors.
     ?Actors foaf:firstName ?first.
     ?Actors foaf:familyName ?last.
+    ?Actors ep:atuaComo ?personagem.
+    ?Filme ep:temPersonagem ?personagem.
 } ORDER BY ASC(?first) ASC(?last) 
 
 3) Substiruir nomes de ambos os atores
@@ -37,18 +39,20 @@ WHERE {
 } ORDER BY DESC(?Lancamento) 
 
 4)
-SELECT ?Filme ?Duracao
+SELECT ?Filmes ?Duracao ?ator
 WHERE {
-    ?diretor foaf:firstName "Francis"^^xsd:string.
-    ?diretor foaf:familyName "Coppola"^^xsd:string.
+    ?Filme ep:name "The Godfather".
     ?Filme ep:dirigidoPor ?Diretor.
-
-    ?Filme ep:temAtores ?ator.
-    {?ator foaf:firstName "nSofia"^^xsd:string. ?ator foaf:familyName "Coppola"^^xsd:string.}
-    UNION {?ator foaf:firstName "Marianna"^^xsd:string. ?ator foaf:familyName "Hill"^^xsd:string.}
-
-    
-    ?Filme ep:duration ?Duracao.
+    {
+        ?ator foaf:firstName "Sofia"^^xsd:string.
+        ?ator foaf:familyName "Coppola"^^xsd:string.
+    }
+    UNION {
+        ?ator foaf:firstName "Marianna"^^xsd:string.
+        ?ator foaf:familyName "Hill"^^xsd:string.
+    }
+    ?Filmes ep:temAtores ?ator.
+    ?Filmes ep:duration ?Duracao.
 } ORDER BY ASC(?Duracao) 
 
 5)
