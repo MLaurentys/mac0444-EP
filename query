@@ -4,11 +4,23 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?Diretor
+WHERE
+{
+{
+    SELECT ?Diretor (COUNT(*) AS ?contador)
+WHERE {
+    ?ator
+        foaf:firstName "Bill"^^xsd:string;
+        foaf:familyName "Murray"^^xsd:string.
+    ?ator ep:atuaNo ?filme.
+    ?Diretor ep:dirige ?filme.
+}
+GROUP BY (?Diretor)
+ORDER BY DESC(?contador)
+LIMIT 1 
+}
 
-SELECT distinct ?Name
-    WHERE {
-    ?diretor foaf:firstName "Sofia"^^xsd:string.
-    ?diretor foaf:familyName "Coppola"^^xsd:string.
-    ?Filmes ep:dirigidoPor ?diretor.
-    ?Filmes ep:name ?Name.
-} ORDER BY ASC(?Name)
+
+
+}

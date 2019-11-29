@@ -6,27 +6,27 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 1) Substituir o nome atual pelo nome do diretor desejado
-SELECT distinct ?Name
+SELECT distinct ?TituloDoFilme
     WHERE {
     ?diretor foaf:firstName "Sofia"^^xsd:string.
     ?diretor foaf:familyName "Coppola"^^xsd:string.
     ?Filmes ep:dirigidoPor ?diretor.
-    ?Filmes ep:name ?Name.
-} ORDER BY ASC(?Name)
+    ?Filmes ep:name ?TituloDoFilme.
+} ORDER BY ASC(?TituloDoFilme)
 
 2) Substituir nome do filme atual pelo nome desejado
-SELECT ?First ?Last ?Personagem
+SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 WHERE {
     ?Filme ep:name "Fall"^^xsd:string.
     ?Filme ep:temAtores ?Actors.
-    ?Actors foaf:firstName ?first.
-    ?Actors foaf:familyName ?last.
-    ?Actors ep:atuaComo ?personagem.
-    ?Filme ep:temPersonagem ?personagem.
-} ORDER BY ASC(?first) ASC(?last) 
+    ?Actors foaf:firstName ?PrimeiroNome.
+    ?Actors foaf:familyName ?UltimoNome.
+    ?Actors ep:atuaComo ?Personagem.
+    ?Filme ep:temPersonagem ?Personagem.
+} ORDER BY ASC(?PrimeiroNome) ASC(?UltimoNome) 
 
 3) Substiruir nomes de ambos os atores
-SELECT ?Filme ?Diretor ?Lancamento
+SELECT ?Filme ?Diretor ?Ano
 WHERE {
     ?ator1 foaf:firstName "Sofia"^^xsd:string.
     ?ator1 foaf:familyName "Coppola"^^xsd:string.
@@ -35,14 +35,14 @@ WHERE {
     ?Filme ep:temAtores ?ator1.
     ?Filme ep:temAtores ?ator2.
     ?Filme ep:dirigidoPor ?Diretor.
-    ?Filme ep:lancamento ?Lancamento.
-} ORDER BY DESC(?Lancamento) 
+    ?Filme ep:lancamento ?Ano.
+} ORDER BY DESC(?Ano)  
 
 4)
-SELECT ?Filmes ?Duracao ?ator
+SELECT ?Filme ?Duracao
 WHERE {
-    ?Filme ep:name "The Godfather".
-    ?Filme ep:dirigidoPor ?Diretor.
+    ?Filmes ep:name "The Godfather".
+    ?Filmes ep:dirigidoPor ?Diretor.
     {
         ?ator foaf:firstName "Sofia"^^xsd:string.
         ?ator foaf:familyName "Coppola"^^xsd:string.
@@ -51,21 +51,19 @@ WHERE {
         ?ator foaf:firstName "Marianna"^^xsd:string.
         ?ator foaf:familyName "Hill"^^xsd:string.
     }
-    ?Filmes ep:temAtores ?ator.
-    ?Filmes ep:duration ?Duracao.
+    ?Filme ep:temAtores ?ator.
+    ?Filme ep:duration ?Duracao.
 } ORDER BY ASC(?Duracao) 
 
 5)
-SELECT distinct ?First ?Lastmily.
+SELECT distinct  ?Pessoa ?FilmeAt ?FilmeDir
 WHERE {
-    ?pessoa ep:dirige ?filme1.
-    ?pessoa ep:atuaNo ?filme2.
-    ?pessoa foaf:firstName ?First.
-    ?pessoa foaf:familyName ?Last.
+    ?Pessoa ep:dirige ?FilmeDir.
+    ?Pessoa ep:atuaNo ?FilmeAt.
 }
 
 6) Change dates and actor names for different results
-SELECT ?Diretores ?Ano
+SELECT ?Ano ?Diretor ?Filme
 WHERE {
     ?Filme ep:lancamento ?Ano.
     FILTER(?Ano < 1980).
@@ -76,19 +74,15 @@ WHERE {
     ?ator2 foaf:familyName "Hill"^^xsd:string.
     ?Filme ep:temAtores ?ator1.
     ?Filme ep:temAtores ?ator2.
-    ?Filme ep:dirigidoPor ?Diretores.
+    ?Filme ep:dirigidoPor ?Diretor.
 }
 
 7)Change the initial and final duration
-SELECT ?Filme ?Atriz ?Ator
+SELECT ?Atriz ?Ator ?Filme ?Duracao
 WHERE {
-    {
-        SELECT ?Filme {
-        ?Filme ep:duration ?Duracao.
-        FILTER(?Duracao < 120).
-        FILTER(?Duracao > 0).
-        } LIMIT 1
-    }
+    ?Filme ep:duration ?Duracao.
+    FILTER(?Duracao < 150).
+    FILTER(?Duracao > 140).
     ?Filme ep:temAtores ?Atriz.
     ?Filme ep:temAtores ?Ator.
     ?Atriz a ep:Atriz.
@@ -96,20 +90,27 @@ WHERE {
 }
 
 8)
-SELECT ?Diretor (COUNT(*) AS ?contador)
+SELECT ?Diretor
 WHERE {
-    ?ator
-        foaf:firstName "Bill"^^xsd:string;
-        foaf:familyName "Murray"^^xsd:string.
-    ?ator ep:atuaNo ?filme.
-    ?Diretor ep:dirige ?filme.
+    {
+        SELECT ?Diretor (COUNT(*) AS ?contador)
+        WHERE {
+            ?ator foaf:firstName "Bill"^^xsd:string;
+                  foaf:familyName "Murray"^^xsd:string.
+            ?ator ep:atuaNo ?filme.
+            ?Diretor ep:dirige ?filme.
+    }
+    GROUP BY (?Diretor)
+    ORDER BY DESC(?contador)
+    LIMIT 1 
 }
-GROUP BY (?Diretor)
-ORDER BY DESC(?contador)
-LIMIT 1 
+
+
+
+}
 
 9) Change first and last name of actor
-SELECT ?Ator ?Filme ?Ano ?Personagem
+SELECT ?Filme ?Ano ?Personagem
 WHERE {
     ?Ator foaf:firstName "Talia"^^xsd:string;
           foaf:familyName "Shire"^^xsd:string.
@@ -120,13 +121,13 @@ WHERE {
 } ORDER BY ASC(?Ano) LIMIT 1
 
 10)
-SELECT ?Nome ?duracao
+SELECT ?Filme ?Duracao
 WHERE {
     ?diretor foaf:firstName "Sofia"^^xsd:string.
     ?diretor foaf:familyName "Coppola"^^xsd:string.
     ?filme ep:dirigidoPor ?diretor.
-    ?filme ep:name ?Nome.
-    ?filme ep:duration ?duracao.
+    ?filme ep:name ?Filme.
+    ?filme ep:duration ?Duracao.
 }
-ORDER BY DESC (?duracao)
+ORDER BY DESC (?Duracao)
 LIMIT 1
