@@ -258,7 +258,7 @@ with open(filmes) as file :
             words = line[8:]
             words = re.split( ', \'|\',|\n|\\)', words.replace(".", ""))
             duration = """
-    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</duration>""".format(words[2])
+    <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{}</duration>""".format(words[2].rstrip())
             name = """
     <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{}</name>""".format(words[1].replace("'", ""))
             treco[words[0]] = treco[words[0]] + duration + name
